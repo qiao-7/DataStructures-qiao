@@ -37,9 +37,15 @@
     高斯算法
     普通算法
 '''
-a = (1+5001)*5000/2
-print(a)
+# a = (1+5001)*5000/2
+# print(a)
 
+def get_sun(n):
+    sum= 0
+    for i in range(1,n):
+        sum = sum+i
+    return sum
 
-for i in range(1,5001):
-    pass
+def get_sum_gs(n):
+    sum = n*(n+1)/2
+    return sum
